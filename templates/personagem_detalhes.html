@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ personagem.nome }} - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <div class="ficha-personagem">
+
+        <div class="ficha-imagem">
+            <img
+                src="{{ url_for('static', filename=personagem.imagem) }}"
+                alt="{{ personagem.nome }}"
+            >
+        </div>
+
+        <div class="ficha-info">
+
+            <h2>{{ personagem.nome }}</h2>
+
+            <p>
+                <strong>Tipo:</strong>
+                {{ personagem.tipo }}
+            </p>
+
+            <p>
+                <strong>Jogo:</strong>
+                {{ personagem.jogo }}
+            </p>
+
+            <p>
+                <strong>Grupo:</strong>
+                {{ personagem.grupo }}
+            </p>
+
+            <div class="descricao">
+                <h3>Descrição</h3>
+
+                <p>
+                    {{ personagem.descricao }}
+                </p>
+            </div>
+
+            <a href="/personagens">
+                ← Voltar para personagens
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}
+

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}
+Jogos - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <h2>Jogos</h2>
+
+    <p>
+        Banco de dados dos jogos do universo de Resident Evil.
+    </p>
+
+    <section class="personagens">
+
+        {% for jogo in jogos %}
+
+            <div class="card-personagem">
+
+                <img
+                    src="{{ url_for('static', filename=jogo.imagem) }}"
+                    alt="{{ jogo.nome }}"
+                >
+
+                <h3>{{ jogo.nome }}</h3>
+
+                <p>
+                    <strong>Ano:</strong>
+                    {{ jogo.ano }}
+                </p>
+
+                <p>
+                    <strong>Plataforma:</strong>
+                    {{ jogo.plataforma }}
+                </p>
+
+                <p>
+                    <strong>Desenvolvedora:</strong>
+                    {{ jogo.desenvolvedora }}
+                </p>
+
+                <p>
+                    <strong>Protagonistas:</strong>
+                    {{ jogo.protagonistas }}
+                </p>
+
+                <p>
+                    {{ jogo.descricao }}
+                </p>
+
+                <a href="/jogos/{{ jogo.id }}">
+    Ver detalhes
+</a>
+
+
+            </div>
+
+        {% endfor %}
+
+    </section>
+
+</main>
+
+{% endblock %}

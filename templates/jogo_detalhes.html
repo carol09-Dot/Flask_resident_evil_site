@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ jogo.nome }} - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <div class="ficha-personagem">
+
+        <div class="ficha-imagem">
+
+            <img
+                src="{{ url_for('static', filename=jogo.imagem) }}"
+                alt="{{ jogo.nome }}"
+            >
+
+        </div>
+
+        <div class="ficha-info">
+
+            <h2>{{ jogo.nome }}</h2>
+
+            <p>
+                <strong>Ano:</strong>
+                {{ jogo.ano }}
+            </p>
+
+            <p>
+                <strong>Plataforma:</strong>
+                {{ jogo.plataforma }}
+            </p>
+
+            <p>
+                <strong>Desenvolvedora:</strong>
+                {{ jogo.desenvolvedora }}
+            </p>
+
+            <p>
+                <strong>Protagonistas:</strong>
+                {{ jogo.protagonistas }}
+            </p>
+
+            <div class="descricao">
+
+                <h3>Descrição</h3>
+
+                <p>
+                    {{ jogo.descricao }}
+                </p>
+
+            </div>
+
+            <a href="/jogos">
+                ← Voltar para jogos
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}

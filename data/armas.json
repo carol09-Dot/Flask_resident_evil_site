@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Samurai Edge",
+        "tipo": "Pistola",
+        "jogo": "Resident Evil",
+        "grupo": "S.T.A.R.S.",
+        "imagem": "images/armas/Samurai_Edge.png",
+        "descricao": "Uma pistola personalizada utilizada por membros da S.T.A.R.S."
+    },
+    {
+        "id": 2,
+        "nome": "Rocket Launcher",
+        "tipo": "Lançador de foguetes",
+        "jogo": "Resident Evil 2",
+        "grupo": "Diversos",
+        "imagem": "images/armas/Rocket_Launcher.png",
+        "descricao": "Uma poderosa arma capaz de causar enorme dano aos inimigos."
+    }
+]

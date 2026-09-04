@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nome": "Leon S. Kennedy",
+        "tipo": "Personagem",
+        "jogo": "Resident Evil 2",
+        "grupo": "Raccoon City Police Department",
+        "descricao": "Um policial novato que chega a Raccoon City durante o surto do T-Virus.",
+        "imagem": "images/personagens/Leon_S_Kennedy.png"
+    },
+    {
+        "id": 2,
+        "nome": "Claire Redfield",
+        "tipo": "Personagem",
+        "jogo": "Resident Evil 2",
+        "grupo": "Civil",
+        "descricao": "Uma jovem que chega a Raccoon City procurando seu irmão Chris Redfield.",
+        "imagem": "images/personagens/Claire_Redfield.png"
+    },
+    {
+        "id": 3,
+        "nome": "Ada Wong",
+        "tipo": "Personagem",
+        "jogo": "Resident Evil 2",
+        "grupo": "Desconhecido",
+        "descricao": "Uma misteriosa mulher que cruza o caminho de Leon durante os acontecimentos de Raccoon City.",
+        "imagem": "images/personagens/Ada_Wong.png"
+    }
+]

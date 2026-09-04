@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Albert Wesker",
+        "tipo": "Antagonista",
+        "jogo": "Resident Evil 5",
+        "grupo": "S.T.A.R.S. / Tricell",
+        "imagem": "images/personagens/Wesker.png",
+        "descricao": "Um dos principais antagonistas da série."
+    },
+    {
+        "id": 2,
+        "nome": "Nemesis",
+        "tipo": "Arma Biológica",
+        "jogo": "Resident Evil 3",
+        "grupo": "Umbrella",
+        "imagem": "images/personagens/Nemesis.png",
+        "descricao": "Uma poderosa arma biológica criada pela Umbrella."
+    }
+]

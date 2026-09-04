@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}
+Vilões - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <h2>Vilões</h2>
+
+    <p>
+        Banco de dados dos principais antagonistas do universo de Resident Evil.
+    </p>
+
+    <section class="personagens">
+
+        {% for vilao in viloes %}
+
+            <div class="card-personagem">
+
+                <img
+                    src="{{ url_for('static', filename=vilao.imagem) }}"
+                    alt="{{ vilao.nome }}"
+                >
+
+                <h3>{{ vilao.nome }}</h3>
+
+                <p>
+                    <strong>Tipo:</strong>
+                    {{ vilao.tipo }}
+                </p>
+
+                <p>
+                    <strong>Jogo:</strong>
+                    {{ vilao.jogo }}
+                </p>
+
+                <p>
+                    <strong>Grupo:</strong>
+                    {{ vilao.grupo }}
+                </p>
+
+                <a href="/viloes/{{ vilao.id }}">
+    Ver detalhes
+</a>
+
+
+                <p>
+                    {{ vilao.descricao }}
+                </p>
+
+            </div>
+
+        {% endfor %}
+
+    </section>
+
+</main>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ arma.nome }} - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <div class="ficha-personagem">
+
+        <div class="ficha-imagem">
+            <img
+                src="{{ url_for('static', filename=arma.imagem) }}"
+                alt="{{ arma.nome }}"
+            >
+        </div>
+
+        <div class="ficha-info">
+
+            <h2>{{ arma.nome }}</h2>
+
+            <p>
+                <strong>Tipo:</strong>
+                {{ arma.tipo }}
+            </p>
+
+            <p>
+                <strong>Jogo:</strong>
+                {{ arma.jogo }}
+            </p>
+
+            <p>
+                <strong>Grupo:</strong>
+                {{ arma.grupo }}
+            </p>
+
+            <div class="descricao">
+
+                <h3>Descrição</h3>
+
+                <p>
+                    {{ arma.descricao }}
+                </p>
+
+            </div>
+
+            <a href="/armas">
+                ← Voltar para armas
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}

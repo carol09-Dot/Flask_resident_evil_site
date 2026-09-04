@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ vilao.nome }} - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <div class="ficha-personagem">
+
+        <div class="ficha-imagem">
+            <img
+                src="{{ url_for('static', filename=vilao.imagem) }}"
+                alt="{{ vilao.nome }}"
+            >
+        </div>
+
+        <div class="ficha-info">
+
+            <h2>{{ vilao.nome }}</h2>
+
+            <p>
+                <strong>Tipo:</strong>
+                {{ vilao.tipo }}
+            </p>
+
+            <p>
+                <strong>Jogo:</strong>
+                {{ vilao.jogo }}
+            </p>
+
+            <p>
+                <strong>Grupo:</strong>
+                {{ vilao.grupo }}
+            </p>
+
+            <div class="descricao">
+
+                <h3>Descrição</h3>
+
+                <p>
+                    {{ vilao.descricao }}
+                </p>
+
+            </div>
+
+            <a href="/viloes">
+                ← Voltar para vilões
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}

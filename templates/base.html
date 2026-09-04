@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}S.T.A.R.S. Database{% endblock %}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>S.T.A.R.S. DATABASE</h1>
+        <h2>Biohazard Codex</h2>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/personagens">Personagens</a>
+        <a href="/viloes">Vilões</a>
+        <a href="/armas">Armas</a>
+        <a href="/jogos">Jogos</a>
+        <a href="#">História</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}
+Armas - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <h2>Armas</h2>
+
+    <p>
+        Banco de dados de armas do universo de Resident Evil.
+    </p>
+
+    <section class="personagens">
+
+        {% for arma in armas %}
+
+            <div class="card-personagem">
+
+                <img
+                    src="{{ url_for('static', filename=arma.imagem) }}"
+                    alt="{{ arma.nome }}"
+                >
+
+                <h3>{{ arma.nome }}</h3>
+
+                <p>
+                    <strong>Tipo:</strong>
+                    {{ arma.tipo }}
+                </p>
+
+                <p>
+                    <strong>Jogo:</strong>
+                    {{ arma.jogo }}
+                </p>
+
+                <p>
+                    <strong>Grupo:</strong>
+                    {{ arma.grupo }}
+                </p>
+
+                <p>
+                    {{ arma.descricao }}
+                </p>
+
+                <a href="/armas/{{ arma.id }}">
+    Ver detalhes
+</a>
+
+
+            </div>
+
+        {% endfor %}
+
+    </section>
+
+</main>
+
+{% endblock %}

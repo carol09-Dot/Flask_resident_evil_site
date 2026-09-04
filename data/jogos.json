@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "nome": "Resident Evil",
+        "ano": 1996,
+        "plataforma": "PlayStation",
+        "desenvolvedora": "Capcom",
+        "protagonistas": "Chris Redfield e Jill Valentine",
+        "personagens": [1, 2, 3, 4, 5],
+        "imagem": "images/jogos/Resident_Evil_1.png",
+        "descricao": "O jogo que iniciou a série Resident Evil e apresentou a mansão Spencer e o incidente de Raccoon City."
+    },
+    {
+        "id": 2,
+        "nome": "Resident Evil 2",
+        "ano": 1998,
+        "plataforma": "PlayStation",
+        "desenvolvedora": "Capcom",
+        "protagonistas": "Leon S. Kennedy e Claire Redfield",
+        "imagem": "images/jogos/Resident_Evil_2.png",
+        "descricao": "Leon e Claire chegam a Raccoon City durante o surto do T-vírus."
+    },
+    {
+        "id": 3,
+        "nome": "Resident Evil 3",
+        "ano": 1999,
+        "plataforma": "PlayStation",
+        "desenvolvedora": "Capcom",
+        "protagonistas": "Jill Valentine e Carlos Oliveira",
+        "imagem": "images/jogos/Resident_Evil_3.png",
+        "descricao": "Jill Valentine tenta escapar de Raccoon City enquanto é perseguida pelo Nemesis."
+    }
+]

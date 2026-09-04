@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}
+Personagens - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+    <h2>Personagens</h2>
+
+    <p>
+        Banco de dados de personagens do universo de Resident Evil.
+    </p>
+
+    <section class="personagens">
+
+        {% for personagem in personagens %}
+
+            <div class="card-personagem">
+
+                <img
+                    src="{{ url_for('static', filename=personagem.imagem) }}"
+                    alt="{{ personagem.nome }}"
+                >
+
+                <h3>{{ personagem.nome }}</h3>
+
+                <p>
+                    <strong>Jogo:</strong>
+                    {{ personagem.jogo }}
+                </p>
+
+                <p>
+                    <strong>Grupo:</strong>
+                    {{ personagem.grupo }}
+                </p>
+
+                <p>
+                    {{ personagem.descricao }}
+                </p>
+
+                <a href="/personagens/{{ personagem.id }}">
+                    Ver detalhes
+                </a>
+
+            </div>
+
+        {% endfor %}
+
+    </section>
+
+</main>
+
+{% endblock %}
