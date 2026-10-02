@@ -1,27 +1,39 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import json
+import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)
+
+
+def carregar_json(nome_arquivo):
+    caminho = os.path.join(BASE_DIR, "data", nome_arquivo)
+
+    with open(caminho, "r", encoding="utf-8") as arquivo:
+        return json.load(arquivo)
 
 
 @app.route("/")
 def inicio():
     return render_template("index.html")
 
+
+# PERSONAGENS
+
 @app.route("/personagens")
 def personagens():
+    personagens = carregar_json("personagens.json")
 
-    with open("data/personagens.json", "r", encoding="utf-8") as arquivo:
-        personagens = json.load(arquivo)
+    return render_template(
+        "personagens.html",
+        personagens=personagens
+    )
 
-    return render_template("personagens.html", personagens=personagens)
 
 @app.route("/personagens/<int:id>")
 def personagem_detalhes(id):
-
-    with open("data/personagens.json", "r", encoding="utf-8") as arquivo:
-        personagens = json.load(arquivo)
+    personagens = carregar_json("personagens.json")
 
     for personagem in personagens:
         if personagem["id"] == id:
@@ -32,20 +44,22 @@ def personagem_detalhes(id):
 
     return "Personagem não encontrado", 404
 
+
+# VILÕES
+
 @app.route("/viloes")
 def viloes():
+    viloes = carregar_json("viloes.json")
 
-    with open("data/viloes.json", "r", encoding="utf-8") as arquivo:
-        viloes = json.load(arquivo)
-
-    return render_template("viloes.html", viloes=viloes)
+    return render_template(
+        "viloes.html",
+        viloes=viloes
+    )
 
 
 @app.route("/viloes/<int:id>")
 def vilao_detalhes(id):
-
-    with open("data/viloes.json", "r", encoding="utf-8") as arquivo:
-        viloes = json.load(arquivo)
+    viloes = carregar_json("viloes.json")
 
     for vilao in viloes:
         if vilao["id"] == id:
@@ -56,20 +70,22 @@ def vilao_detalhes(id):
 
     return "Vilão não encontrado", 404
 
+
+# ARMAS
+
 @app.route("/armas")
 def armas():
+    armas = carregar_json("armas.json")
 
-    with open("data/armas.json", "r", encoding="utf-8") as arquivo:
-        armas = json.load(arquivo)
-
-    return render_template("armas.html", armas=armas)
+    return render_template(
+        "armas.html",
+        armas=armas
+    )
 
 
 @app.route("/armas/<int:id>")
 def arma_detalhes(id):
-
-    with open("data/armas.json", "r", encoding="utf-8") as arquivo:
-        armas = json.load(arquivo)
+    armas = carregar_json("armas.json")
 
     for arma in armas:
         if arma["id"] == id:
@@ -80,19 +96,22 @@ def arma_detalhes(id):
 
     return "Arma não encontrada", 404
 
+
+# JOGOS
+
 @app.route("/jogos")
 def jogos():
+    jogos = carregar_json("jogos.json")
 
-    with open("data/jogos.json", "r", encoding="utf-8") as arquivo:
-        jogos = json.load(arquivo)
+    return render_template(
+        "jogos.html",
+        jogos=jogos
+    )
 
-    return render_template("jogos.html", jogos=jogos)
 
 @app.route("/jogos/<int:id>")
 def jogo_detalhes(id):
-
-    with open("data/jogos.json", "r", encoding="utf-8") as arquivo:
-        jogos = json.load(arquivo)
+    jogos = carregar_json("jogos.json")
 
     for jogo in jogos:
         if jogo["id"] == id:
@@ -103,4 +122,74 @@ def jogo_detalhes(id):
 
     return "Jogo não encontrado", 404
 
-app.run(debug=True)
+
+# AGENTES BIOLÓGICOS
+
+@app.route("/virus")
+def virus():
+    virus = carregar_json("virus.json")
+
+    return render_template(
+        "virus.html",
+        virus=virus
+    )
+
+
+@app.route("/virus/<int:id>")
+def virus_detalhes(id):
+    virus = carregar_json("virus.json")
+
+    for item in virus:
+        if item["id"] == id:
+            return render_template(
+                "virus_detalhes.html",
+                virus=item
+            )
+
+    return "Agente biológico não encontrado", 404
+
+
+# HISTÓRIA
+
+@app.route("/historia")
+def historia():
+    return render_template("historia.html")
+
+
+# PESQUISA
+
+@app.route("/buscar")
+def buscar():
+    termo = request.args.get("q", "").lower()
+
+    resultados = []
+
+    arquivos = [
+        ("personagens", "personagens.json"),
+        ("viloes", "viloes.json"),
+        ("armas", "armas.json"),
+        ("jogos", "jogos.json"),
+        ("virus", "virus.json")
+    ]
+
+    for categoria, nome_arquivo in arquivos:
+        dados = carregar_json(nome_arquivo)
+
+        for item in dados:
+            if termo in item["nome"].lower():
+                resultados.append({
+                    "categoria": categoria,
+                    "item": item
+                })
+
+    return render_template(
+        "busca.html",
+        resultados=resultados,
+        termo=termo
+    )
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+

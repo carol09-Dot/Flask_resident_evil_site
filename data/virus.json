@@ -1,0 +1,151 @@
+[
+{
+"id": 1,
+"nome": "T-Virus",
+"tipo": "Vírus",
+"origem": "Umbrella Corporation",
+"jogo": "Resident Evil",
+"descricao": "Um agente biológico desenvolvido pela Umbrella Corporation, responsável por transformar seres vivos infectados e causar surtos biológicos.",
+"imagem": "images/virus/T-Virus.png"
+},
+
+{
+    "id": 2,
+    "nome": "G-Virus",
+    "tipo": "Vírus",
+    "origem": "Umbrella Corporation",
+    "jogo": "Resident Evil 2",
+    "descricao": "Um agente biológico experimental associado às pesquisas de William Birkin, capaz de provocar mutações extremas.",
+    "imagem": "images/virus/G-Virus.png"
+},
+
+{
+    "id": 3,
+    "nome": "Las Plagas",
+    "tipo": "Parasita",
+    "origem": "Região de Valdelobos, Espanha",
+    "jogo": "Resident Evil 4",
+    "descricao": "Um organismo parasitário capaz de controlar o comportamento de seus hospedeiros.",
+    "imagem": "images/virus/Las_Plagas.png"
+},
+
+{
+    "id": 4,
+    "nome": "Progenitor Virus",
+    "tipo": "Vírus",
+    "origem": "África",
+    "jogo": "Resident Evil 5",
+    "descricao": "Um vírus ancestral descoberto na África que serviu como base para o desenvolvimento de diversos outros agentes biológicos da franquia.",
+    "imagem": "images/virus/Progenitor_Virus.png"
+},
+
+{
+    "id": 5,
+    "nome": "T-Veronica Virus",
+    "tipo": "Vírus",
+    "origem": "Pesquisas de Alexia Ashford",
+    "jogo": "Resident Evil Code: Veronica",
+    "descricao": "Um vírus desenvolvido por Alexia Ashford que pode provocar mutações e alterações extremas em organismos infectados.",
+    "imagem": "images/virus/T-Veronica.png"
+},
+
+{
+    "id": 6,
+    "nome": "Uroboros Virus",
+    "tipo": "Vírus",
+    "origem": "Tricell",
+    "jogo": "Resident Evil 5",
+    "descricao": "Um agente biológico desenvolvido a partir das pesquisas sobre o Progenitor Virus e utilizado nos planos de Albert Wesker.",
+    "imagem": "images/virus/Uroboros.png"
+},
+
+{
+    "id": 7,
+    "nome": "C-Virus",
+    "tipo": "Vírus",
+    "origem": "Neo-Umbrella",
+    "jogo": "Resident Evil 6",
+    "descricao": "Um poderoso agente biológico capaz de causar diferentes mutações, utilizado durante os eventos de Resident Evil 6.",
+    "imagem": "images/virus/C-Virus.png"
+},
+
+{
+    "id": 8,
+    "nome": "T-Abyss Virus",
+    "tipo": "Vírus",
+    "origem": "FBC e Tricell",
+    "jogo": "Resident Evil: Revelations",
+    "descricao": "Um agente biológico associado aos acontecimentos de Resident Evil: Revelations e ao incidente envolvendo o navio Queen Zenobia.",
+    "imagem": "images/virus/T-Abyss.png"
+},
+
+{
+    "id": 9,
+    "nome": "Mutamiceto",
+    "tipo": "Fungo mutagênico",
+    "origem": "Megamiceto",
+    "jogo": "Resident Evil 7: Biohazard",
+    "descricao": "Um agente fúngico mutagênico associado aos acontecimentos envolvendo a família Baker.",
+    "imagem": "images/virus/Mutamiceto.png"
+},
+
+{
+    "id": 10,
+    "nome": "NE-Alpha",
+    "tipo": "Parasita",
+    "origem": "Umbrella Corporation",
+    "jogo": "Resident Evil 3: Nemesis",
+    "descricao": "Um parasita desenvolvido pela Umbrella para melhorar o controle e a inteligência de armas biológicas, sendo especialmente associado ao Nemesis.",
+    "imagem": "images/virus/NE-Alpha.png"
+},
+
+{
+    "id": 11,
+    "nome": "T+G Virus",
+    "tipo": "Vírus",
+    "origem": "Umbrella Corporation",
+    "jogo": "Resident Evil: Dead Aim",
+    "descricao": "Um agente experimental desenvolvido a partir de pesquisas envolvendo variantes relacionadas ao T-Virus e ao G-Virus.",
+    "imagem": "images/virus/T_G_Virus.png"
+},
+
+{
+    "id": 12,
+    "nome": "T-Phobos",
+    "tipo": "Vírus",
+    "origem": "Pesquisas de Alex Wesker",
+    "jogo": "Resident Evil: Revelations 2",
+    "descricao": "Uma variante viral associada às pesquisas de Alex Wesker, cuja atividade está relacionada à resposta de medo e estresse do hospedeiro.",
+    "imagem": "images/virus/T-Phobos.png"
+},
+
+{
+    "id": 13,
+    "nome": "A-Virus",
+    "tipo": "Vírus",
+    "origem": "Glenn Arias",
+    "jogo": "Resident Evil: Vendetta",
+    "descricao": "Um agente biológico apresentado na história animada Resident Evil: Vendetta e associado aos planos de Glenn Arias.",
+    "imagem": "images/virus/A-Virus.png"
+},
+
+{
+    "id": 15,
+    "nome": "Megamiceto",
+    "tipo": "Fungo",
+    "origem": "Europa Oriental",
+    "jogo": "Resident Evil Village",
+    "descricao": "Um organismo fúngico extremamente importante para os acontecimentos de Resident Evil 7 e Resident Evil Village, associado às pesquisas e aos poderes de Mother Miranda.",
+    "imagem": "images/virus/Megamiceto.png"
+},
+
+{
+    "id": 16,
+    "nome": "Cadou",
+    "tipo": "Parasita",
+    "origem": "Pesquisas de Mother Miranda",
+    "jogo": "Resident Evil Village",
+    "descricao": "Um organismo parasitário utilizado nas pesquisas de Mother Miranda e associado às transformações de diferentes habitantes da vila.",
+    "imagem": "images/virus/Cadou.png"
+}
+]

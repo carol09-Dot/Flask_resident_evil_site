@@ -25,5 +25,271 @@
         "grupo": "Desconhecido",
         "descricao": "Uma misteriosa mulher que cruza o caminho de Leon durante os acontecimentos de Raccoon City.",
         "imagem": "images/personagens/Ada_Wong.png"
-    }
+    },
+    {
+"id": 4,
+"nome": "Chris Redfield",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Um dos principais membros da S.T.A.R.S. e irmão de Claire Redfield, conhecido por sua experiência no combate a ameaças biológicas.",
+"imagem": "images/personagens/Chris_Redfield.png"
+},
+{
+"id": 5,
+"nome": "Jill Valentine",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Uma integrante da S.T.A.R.S. que participa da investigação da mansão nas proximidades de Raccoon City.",
+"imagem": "images/personagens/Jill_Valentine.png"
+},
+{
+"id": 6,
+"nome": "Rebecca Chambers",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Uma integrante da equipe Bravo da S.T.A.R.S. especializada em conhecimentos médicos e científicos.",
+"imagem": "images/personagens/Rebecca_Chambers.png"
+},
+{
+"id": 7,
+"nome": "Barry Burton",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Um membro experiente da S.T.A.R.S. especializado em armas e conhecido por auxiliar seus companheiros durante situações de emergência.",
+"imagem": "images/personagens/Barry_Burton.png"
+},
+{
+"id": 8,
+"nome": "Carlos Oliveira",
+"tipo": "Personagem",
+"jogo": "Resident Evil 3",
+"grupo": "U.B.C.S.",
+"descricao": "Um membro da U.B.C.S. que auxilia Jill Valentine durante o surto de Raccoon City.",
+"imagem": "images/personagens/Carlos_Oliveira.png"
+},
+{
+"id": 9,
+"nome": "Sherry Birkin",
+"tipo": "Personagem",
+"jogo": "Resident Evil 2",
+"grupo": "Civil",
+"descricao": "Filha de William Birkin e Annette Birkin. Sherry é uma jovem que se encontra envolvida no surto de Raccoon City e acaba sendo protegida por Leon S. Kennedy e Claire Redfield.",
+"imagem": "images/personagens/Sherry_Birkin.png"
+},
+{
+"id": 10,
+"nome": "Ethan Winters",
+"tipo": "Personagem",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Civil",
+"descricao": "Um homem que parte em busca de sua esposa desaparecida e acaba envolvido em uma série de acontecimentos ligados a agentes biológicos e experimentos.",
+"imagem": "images/personagens/Ethan_Winters.png"
+},
+{
+"id": 11,
+"nome": "Sheva Alomar",
+"tipo": "Personagem",
+"jogo": "Resident Evil 5",
+"grupo": "B.S.A.A.",
+"descricao": "Uma agente da B.S.A.A. que trabalha ao lado de Chris Redfield durante uma missão na África para investigar atividades relacionadas a armas biológicas.",
+"imagem": "images/personagens/Sheva_Alomar.png"
+},
+{
+"id": 12,
+"nome": "HUNK",
+"tipo": "Personagem",
+"jogo": "Resident Evil 2",
+"grupo": "Umbrella Security Service",
+"descricao": "Um agente altamente treinado do Serviço de Segurança da Umbrella, conhecido por sua eficiência em missões de recuperação e operações de alto risco.",
+"imagem": "images/personagens/HUNK.png"
+},
+{
+"id": 13,
+"nome": "William Birkin",
+"tipo": "Personagem",
+"jogo": "Resident Evil 2",
+"grupo": "Umbrella Corporation",
+"descricao": "Um brilhante pesquisador da Umbrella Corporation responsável pelo desenvolvimento do G-Virus. Durante o surto de Raccoon City, sua pesquisa e os acontecimentos ao seu redor têm consequências importantes para a cidade.",
+"imagem": "images/personagens/William_Birkin.png"
+},
+{
+"id": 14,
+"nome": "Annette Birkin",
+"tipo": "Personagem",
+"jogo": "Resident Evil 2",
+"grupo": "Umbrella Corporation",
+"descricao": "Uma pesquisadora da Umbrella Corporation envolvida com o desenvolvimento do G-Virus. Esposa de William Birkin e mãe de Sherry Birkin, Annette tenta proteger sua família durante o surto de Raccoon City.",
+"imagem": "images/personagens/Annette_Birkin.png"
+},
+{
+"id": 15,
+"nome": "Steve Burnside",
+"tipo": "Personagem",
+"jogo": "Resident Evil Code: Veronica",
+"grupo": "Civil",
+"descricao": "Um jovem prisioneiro que Claire Redfield conhece durante os acontecimentos de Code: Veronica. Ele acaba se envolvendo na fuga e na luta pela sobrevivência ao lado de Claire.",
+"imagem": "images/personagens/Steve_Burnside.png"
+},
+{
+"id": 16,
+"nome": "Billy Coen",
+"tipo": "Personagem",
+"jogo": "Resident Evil 0",
+"grupo": "Ex-Marine",
+"descricao": "Um ex-fuzileiro naval que se torna um dos protagonistas de Resident Evil 0. Durante os acontecimentos do jogo, Billy trabalha junto de Rebecca Chambers para sobreviver e investigar os acontecimentos relacionados à Umbrella.",
+"imagem": "images/personagens/Billy_Coen.png"
+},
+{
+"id": 17,
+"nome": "Enrico Marini",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Capitão e comandante da equipe Bravo da S.T.A.R.S. Enrico participa da investigação dos acontecimentos envolvendo a mansão nas proximidades de Raccoon City.",
+"imagem": "images/personagens/Enrico_Marini.png"
+},
+{
+"id": 18,
+"nome": "Richard Aiken",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Um membro da equipe Bravo da S.T.A.R.S. especializado em comunicações. Ele participa da investigação da mansão e acaba enfrentando os perigos causados pelos experimentos da Umbrella.",
+"imagem": "images/personagens/Richard_Aiken.png"
+},
+{
+"id": 19,
+"nome": "Joseph Frost",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Um membro da equipe Alpha da S.T.A.R.S. que participa da missão de investigação nos arredores de Raccoon City.",
+"imagem": "images/personagens/Joseph_Frost.png"
+},
+{
+"id": 20,
+"nome": "Jake Muller",
+"tipo": "Personagem",
+"jogo": "Resident Evil 6",
+"grupo": "Mercenário",
+"descricao": "Um mercenário e filho de Albert Wesker. Jake possui características genéticas especiais que o tornam importante para os acontecimentos de Resident Evil 6.",
+"imagem": "images/personagens/Jake_Muller.png"
+},
+{
+"id": 21,
+"nome": "Forest Speyer",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"descricao": "Um membro da equipe Bravo da S.T.A.R.S. que participa da investigação dos acontecimentos relacionados à mansão e aos experimentos da Umbrella.",
+"imagem": "images/personagens/Forest_Speyer.png"
+},
+{
+"id": 22,
+"nome": "Kevin Dooley",
+"tipo": "Personagem",
+"jogo": "Resident Evil",
+"grupo": "Raccoon Police Department",
+"descricao": "Um piloto do Departamento de Polícia de Raccoon que participa das operações relacionadas à S.T.A.R.S. e aos acontecimentos envolvendo a mansão.",
+"imagem": "images/personagens/Kevin_Dooley.png"
+},
+{
+"id": 23,
+"nome": "Luis Sera",
+"tipo": "Personagem",
+"jogo": "Resident Evil 4",
+"grupo": "Ex-pesquisador",
+"descricao": "Um ex-pesquisador que conhece informações importantes sobre as Plagas. Durante os acontecimentos de Resident Evil 4, ele auxilia Leon S. Kennedy em sua missão na Espanha.",
+"imagem": "images/personagens/Luis_Sera.png"
+},
+{
+"id": 24,
+"nome": "Ashley Graham",
+"tipo": "Personagem",
+"jogo": "Resident Evil 4",
+"grupo": "Governo dos Estados Unidos",
+"descricao": "Filha do presidente dos Estados Unidos. Ashley é sequestrada e levada para uma região rural da Espanha, onde Leon S. Kennedy recebe a missão de encontrá-la e levá-la de volta em segurança.",
+"imagem": "images/personagens/Ashley_Graham.png"
+},
+{
+"id": 25,
+"nome": "Ingrid Hunnigan",
+"tipo": "Personagem",
+"jogo": "Resident Evil 4",
+"grupo": "Governo dos Estados Unidos",
+"descricao": "Uma agente que atua como suporte de Leon S. Kennedy durante sua missão na Espanha, fornecendo informações e orientações por comunicação.",
+"imagem": "images/personagens/Ingrid_Hunnigan.png"
+},
+{
+"id": 26,
+"nome": "Helena Harper",
+"tipo": "Personagem",
+"jogo": "Resident Evil 6",
+"grupo": "Governo dos Estados Unidos",
+"descricao": "Uma agente do governo que trabalha ao lado de Leon S. Kennedy durante os acontecimentos de Resident Evil 6, envolvendo-se na investigação de uma nova ameaça biológica.",
+"imagem": "images/personagens/Helena_Harper.png"
+},
+{
+"id": 27,
+"nome": "Piers Nivans",
+"tipo": "Personagem",
+"jogo": "Resident Evil 6",
+"grupo": "B.S.A.A.",
+"descricao": "Um agente da B.S.A.A. que trabalha ao lado de Chris Redfield durante os acontecimentos de Resident Evil 6, participando de operações contra ameaças biológicas.",
+"imagem": "images/personagens/Piers_Nivans.png"
+},
+{
+"id": 28,
+"nome": "Mia Winters",
+"tipo": "Personagem",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Civil",
+"descricao": "Esposa de Ethan Winters e uma personagem ligada a uma organização envolvida com pesquisas biológicas. Seu desaparecimento é o que leva Ethan aos acontecimentos de Resident Evil 7.",
+"imagem": "images/personagens/Mia_Winters.png"
+},
+{
+"id": 29,
+"nome": "Zoe Baker",
+"tipo": "Personagem",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Família Baker",
+"descricao": "Uma integrante da família Baker que tenta ajudar Ethan Winters durante os acontecimentos de Resident Evil 7. Zoe fornece informações importantes sobre a situação e procura uma forma de escapar das consequências dos acontecimentos envolvendo sua família.",
+"imagem": "images/personagens/Zoe_Baker.png"
+},
+{
+"id": 30,
+"nome": "Joe Baker",
+"tipo": "Personagem",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Família Baker",
+"descricao": "Irmão de Jack Baker e tio de Zoe e Lucas. Joe vive isolado nos arredores da propriedade dos Baker e acaba se envolvendo nos acontecimentos relacionados ao agente biológico que afetou sua família.",
+"imagem": "images/personagens/Joe_Baker.png"
+},
+{
+"id": 31,
+"nome": "Rosemary Winters",
+"tipo": "Personagem",
+"jogo": "Resident Evil Village",
+"grupo": "Família Winters",
+"descricao": "Filha de Ethan e Mia Winters. Rosemary possui características especiais relacionadas aos acontecimentos de Resident Evil 7 e Resident Evil Village, tornando-se uma figura importante para a história da família Winters.",
+"imagem": "images/personagens/Rosemary_Winters.png"
+},
+{
+"id": 32,
+"nome": "Grace Ashcroft",
+"tipo": "Personagem",
+"jogo": "Resident Evil Requiem",
+"grupo": "FBI",
+"descricao": "Uma analista do FBI que investiga uma série de mortes misteriosas ligadas aos acontecimentos de Raccoon City. Grace é uma das protagonistas de Resident Evil Requiem.",
+"imagem": "images/personagens/Grace_Ashcroft.png"
+}
+
+
+
+
+
 ]

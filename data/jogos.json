@@ -1,33 +1,201 @@
 [
-    {
-        "id": 1,
-        "nome": "Resident Evil",
-        "ano": 1996,
-        "plataforma": "PlayStation",
-        "desenvolvedora": "Capcom",
-        "protagonistas": "Chris Redfield e Jill Valentine",
-        "personagens": [1, 2, 3, 4, 5],
-        "imagem": "images/jogos/Resident_Evil_1.png",
-        "descricao": "O jogo que iniciou a série Resident Evil e apresentou a mansão Spencer e o incidente de Raccoon City."
-    },
-    {
-        "id": 2,
-        "nome": "Resident Evil 2",
-        "ano": 1998,
-        "plataforma": "PlayStation",
-        "desenvolvedora": "Capcom",
-        "protagonistas": "Leon S. Kennedy e Claire Redfield",
-        "imagem": "images/jogos/Resident_Evil_2.png",
-        "descricao": "Leon e Claire chegam a Raccoon City durante o surto do T-vírus."
-    },
-    {
-        "id": 3,
-        "nome": "Resident Evil 3",
-        "ano": 1999,
-        "plataforma": "PlayStation",
-        "desenvolvedora": "Capcom",
-        "protagonistas": "Jill Valentine e Carlos Oliveira",
-        "imagem": "images/jogos/Resident_Evil_3.png",
-        "descricao": "Jill Valentine tenta escapar de Raccoon City enquanto é perseguida pelo Nemesis."
-    }
+{
+"id": 1,
+"nome": "Resident Evil 0",
+"ano": 2002,
+"plataforma": "GameCube",
+"desenvolvedora": "Capcom",
+"protagonistas": "Rebecca Chambers e Billy Coen",
+"descricao": "A história acompanha Rebecca Chambers e Billy Coen antes dos acontecimentos do primeiro Resident Evil. Os dois investigam uma série de acontecimentos misteriosos relacionados ao início do surto em Raccoon City.",
+"imagem": "images/jogos/Resident_Evil_0.png"
+},
+
+{
+    "id": 2,
+    "nome": "Resident Evil",
+    "ano": 1996,
+    "plataforma": "PlayStation",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Chris Redfield e Jill Valentine",
+    "descricao": "Chris Redfield e Jill Valentine, integrantes da S.T.A.R.S., investigam o desaparecimento de uma equipe nas montanhas próximas a Raccoon City. A investigação leva a uma mansão que esconde experimentos biológicos da Umbrella.",
+    "imagem": "images/jogos/Resident_Evil_1.png"
+},
+
+{
+    "id": 3,
+    "nome": "Resident Evil 2",
+    "ano": 1998,
+    "plataforma": "PlayStation",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Leon S. Kennedy e Claire Redfield",
+    "descricao": "Durante o surto em Raccoon City, o policial novato Leon S. Kennedy e Claire Redfield tentam sobreviver à cidade tomada por criaturas enquanto descobrem os segredos da Umbrella e do G-Virus.",
+    "imagem": "images/jogos/Resident_Evil_2.png"
+},
+
+{
+    "id": 4,
+    "nome": "Resident Evil 3: Nemesis",
+    "ano": 1999,
+    "plataforma": "PlayStation",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Jill Valentine e Carlos Oliveira",
+    "descricao": "Jill Valentine tenta escapar de Raccoon City enquanto a cidade é consumida pelo surto biológico. Ao longo da história, ela enfrenta o Nemesis, uma arma biológica criada pela Umbrella para eliminar membros da S.T.A.R.S.",
+    "imagem": "images/jogos/Resident_Evil_3.png"
+},
+
+{
+    "id": 5,
+    "nome": "Resident Evil: Outbreak",
+    "ano": 2003,
+    "plataforma": "PlayStation 2",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Personagens de Raccoon City",
+    "descricao": "A história acompanha diferentes sobreviventes durante o surto de Raccoon City. Cada personagem possui habilidades próprias enquanto tenta escapar da cidade tomada pelo caos.",
+    "imagem": "images/jogos/Resident_Evil_Outbreak.png"
+},
+
+{
+    "id": 6,
+    "nome": "Resident Evil: Outbreak File #2",
+    "ano": 2004,
+    "plataforma": "PlayStation 2",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Personagens de Raccoon City",
+    "descricao": "Outbreak File #2 apresenta novas histórias e cenários envolvendo sobreviventes durante o desastre de Raccoon City. Os personagens precisam trabalhar juntos para escapar e sobreviver.",
+    "imagem": "images/jogos/Resident_Evil_Outbreak_File_2.png"
+},
+
+{
+    "id": 7,
+    "nome": "Resident Evil Code: Veronica",
+    "ano": 2000,
+    "plataforma": "Dreamcast",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Claire Redfield e Chris Redfield",
+    "descricao": "Claire Redfield é capturada durante sua busca por Chris e enviada para uma instalação da Umbrella. O conflito envolve a família Ashford, experimentos biológicos e o retorno de importantes personagens da série.",
+    "imagem": "images/jogos/Resident_Evil_Code_Veronica.png"
+},
+
+{
+    "id": 8,
+    "nome": "Resident Evil: Operation Raccoon City",
+    "ano": 2012,
+    "plataforma": "PlayStation 3 / Xbox 360 / PC",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Esquadrão U.S.S. e membros do Serviço de Segurança da Umbrella",
+    "descricao": "Durante o surto de Raccoon City, membros do Serviço de Segurança da Umbrella são enviados para cumprir missões relacionadas às pesquisas e aos acontecimentos envolvendo a empresa.",
+    "imagem": "images/jogos/Resident_Evil_Operation_Raccoon_City.png"
+},
+
+{
+    "id": 9,
+    "nome": "Resident Evil: The Umbrella Chronicles",
+    "ano": 2007,
+    "plataforma": "Wii",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Chris Redfield, Jill Valentine e Rebecca Chambers",
+    "descricao": "The Umbrella Chronicles revisita acontecimentos importantes da história da Umbrella Corporation e apresenta eventos relacionados a diferentes jogos da franquia.",
+    "imagem": "images/jogos/Resident_Evil_The_Umbrella_Chronicles.png"
+},
+
+{
+    "id": 10,
+    "nome": "Resident Evil 4",
+    "ano": 2005,
+    "plataforma": "GameCube",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Leon S. Kennedy",
+    "descricao": "Leon S. Kennedy recebe a missão de resgatar Ashley Graham, filha do presidente dos Estados Unidos. A investigação o leva a uma região rural da Espanha, onde ele enfrenta os Los Illuminados e a ameaça das Las Plagas.",
+    "imagem": "images/jogos/Resident_Evil_4.png"
+},
+
+{
+    "id": 11,
+    "nome": "Resident Evil: The Darkside Chronicles",
+    "ano": 2009,
+    "plataforma": "Wii",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Leon S. Kennedy e Claire Redfield",
+    "descricao": "The Darkside Chronicles revisita acontecimentos relacionados a Raccoon City e outros eventos importantes da série, explorando principalmente histórias envolvendo Leon S. Kennedy.",
+    "imagem": "images/jogos/Resident_Evil_The_Darkside_Chronicles.png"
+},
+
+{
+    "id": 12,
+    "nome": "Resident Evil: Revelations",
+    "ano": 2012,
+    "plataforma": "Nintendo 3DS",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Jill Valentine e Chris Redfield",
+    "descricao": "Jill Valentine e Chris Redfield investigam uma ameaça bioterrorista relacionada ao grupo Il Veltro e ao vírus T-Abyss. A história se passa principalmente a bordo do navio Queen Zenobia.",
+    "imagem": "images/jogos/Resident_Evil_Revelations.png"
+},
+
+{
+    "id": 13,
+    "nome": "Resident Evil 5",
+    "ano": 2009,
+    "plataforma": "PlayStation 3 / Xbox 360",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Chris Redfield e Sheva Alomar",
+    "descricao": "Chris Redfield, integrante da B.S.A.A., viaja para a África e se une a Sheva Alomar para investigar uma ameaça biológica. A missão acaba envolvendo a Tricell, o vírus Uroboros e Albert Wesker.",
+    "imagem": "images/jogos/Resident_Evil_5.png"
+},
+
+{
+    "id": 14,
+    "nome": "Resident Evil: Revelations 2",
+    "ano": 2015,
+    "plataforma": "PlayStation 3 / PlayStation 4 / Xbox 360 / Xbox One / PC",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Claire Redfield e Barry Burton",
+    "descricao": "Claire Redfield e Moira Burton são sequestradas e levadas para uma ilha misteriosa. Enquanto enfrentam diferentes ameaças, Barry Burton parte em busca das duas e conta com a ajuda de Natalia Korda.",
+    "imagem": "images/jogos/Resident_Evil_Revelations_2.png"
+},
+
+{
+    "id": 15,
+    "nome": "Resident Evil 6",
+    "ano": 2012,
+    "plataforma": "PlayStation 3 / Xbox 360",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Leon S. Kennedy, Chris Redfield, Jake Muller e Ada Wong",
+    "descricao": "Uma série de ataques bioterroristas acontece em diferentes partes do mundo. As histórias de Leon, Chris, Jake e Ada se conectam enquanto todos enfrentam as consequências do C-Virus.",
+    "imagem": "images/jogos/Resident_Evil_6.png"
+},
+
+{
+    "id": 16,
+    "nome": "Resident Evil 7: Biohazard",
+    "ano": 2017,
+    "plataforma": "PlayStation 4 / Xbox One / PC",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Ethan Winters",
+    "descricao": "Ethan Winters viaja para Louisiana em busca de sua esposa desaparecida, Mia. A investigação o coloca diante da família Baker e de uma nova ameaça biológica relacionada à misteriosa Eveline.",
+    "imagem": "images/jogos/Resident_Evil_7.png"
+},
+
+{
+    "id": 17,
+    "nome": "Resident Evil Village",
+    "ano": 2021,
+    "plataforma": "PlayStation 4 / PlayStation 5 / Xbox One / Xbox Series X|S / PC",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Ethan Winters",
+    "descricao": "Após os acontecimentos de Resident Evil 7, Ethan Winters chega a uma misteriosa vila europeia em busca de sua filha Rosemary. O local é dominado por diferentes grupos e criaturas ligados a Mother Miranda e ao Megamycete.",
+    "imagem": "images/jogos/Resident_Evil_Village.png"
+},
+
+{
+    "id": 18,
+    "nome": "Resident Evil Requiem",
+    "ano": 2026,
+    "plataforma": "PlayStation 5 / Xbox Series X|S / PC",
+    "desenvolvedora": "Capcom",
+    "protagonistas": "Grace Ashcroft e Leon S. Kennedy",
+    "descricao": "Resident Evil Requiem é o nono título principal da série. A história acompanha Grace Ashcroft, uma analista do FBI, enquanto ela investiga acontecimentos ligados ao passado de Raccoon City. Leon S. Kennedy também participa dos acontecimentos do jogo.",
+    "imagem": "images/jogos/Resident_Evil_Requiem.png"
+}
+
+
 ]

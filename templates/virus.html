@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}
+Agentes Biológicos - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+```
+<h2>Agentes Biológicos</h2>
+
+<p>
+    Banco de dados de vírus, parasitas, fungos e outros
+    agentes biológicos presentes no universo de Resident Evil.
+</p>
+
+<section class="personagens">
+
+    {% for item in virus %}
+
+        <div class="card-personagem">
+
+            <img
+                src="{{ url_for('static', filename=item.imagem) }}"
+                alt="{{ item.nome }}"
+            >
+
+            <h3>{{ item.nome }}</h3>
+
+            <p>
+                <strong>Tipo:</strong>
+                {{ item.tipo }}
+            </p>
+
+            <p>
+                <strong>Origem:</strong>
+                {{ item.origem }}
+            </p>
+
+            <p>
+                <strong>Jogo:</strong>
+                {{ item.jogo }}
+            </p>
+
+            <p>
+                {{ item.descricao }}
+            </p>
+
+            <a href="/virus/{{ item.id }}">
+                Ver detalhes
+            </a>
+
+        </div>
+
+    {% endfor %}
+
+</section>
+```
+
+</main>
+
+{% endblock %}

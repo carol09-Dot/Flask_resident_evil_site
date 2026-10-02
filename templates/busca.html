@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}
+Busca - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+```
+<h2>Resultados da busca</h2>
+
+<p>
+    Resultados para: <strong>{{ termo }}</strong>
+</p>
+
+{% if resultados %}
+
+    <section class="personagens">
+
+        {% for resultado in resultados %}
+
+            <div class="card-personagem">
+
+                <img src="{{ url_for('static', filename=resultado.item.imagem) }}"
+                     alt="{{ resultado.item.nome }}">
+
+                <h3>{{ resultado.item.nome }}</h3>
+
+                <p>
+                    <strong>Categoria:</strong>
+                    {{ resultado.categoria }}
+                </p>
+
+                <a href="/{{ resultado.categoria }}/{{ resultado.item.id }}">
+                    Ver detalhes
+                </a>
+
+            </div>
+
+        {% endfor %}
+
+    </section>
+
+{% else %}
+
+    <p>Nenhum resultado encontrado.</p>
+
+{% endif %}
+```
+
+</main>
+
+{% endblock %}

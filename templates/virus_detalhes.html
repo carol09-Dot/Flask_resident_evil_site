@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ virus.nome }} - Agentes Biológicos - S.T.A.R.S. Database
+{% endblock %}
+
+{% block content %}
+
+<main>
+
+```
+<div class="ficha-personagem">
+
+    <div class="ficha-imagem">
+
+        <img
+            src="{{ url_for('static', filename=virus.imagem) }}"
+            alt="{{ virus.nome }}"
+        >
+
+    </div>
+
+    <div class="ficha-info">
+
+        <h2>{{ virus.nome }}</h2>
+
+        <p>
+            <strong>Tipo:</strong>
+            {{ virus.tipo }}
+        </p>
+
+        <p>
+            <strong>Origem:</strong>
+            {{ virus.origem }}
+        </p>
+
+        <p>
+            <strong>Jogo:</strong>
+            {{ virus.jogo }}
+        </p>
+
+        <div class="descricao">
+
+            <h3>Descrição</h3>
+
+            <p>
+                {{ virus.descricao }}
+            </p>
+
+        </div>
+
+        <a href="/virus">
+            ← Voltar para Agentes Biológicos
+        </a>
+
+    </div>
+
+</div>
+```
+
+</main>
+
+{% endblock %}

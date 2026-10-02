@@ -16,5 +16,125 @@
         "grupo": "Umbrella",
         "imagem": "images/personagens/Nemesis.png",
         "descricao": "Uma poderosa arma biológica criada pela Umbrella."
-    }
+    },
+    {
+        "id": 3,
+        "nome": "Jack Krauser",
+        "tipo": "Vilão",
+        "jogo": "Resident Evil 4",
+        "grupo": "Los Illuminados",
+        "descricao": "Um ex-militar que se torna aliado de Osmund Saddler e trabalha para os Los Illuminados. Krauser possui uma relação de rivalidade com Leon S. Kennedy e utiliza as Plagas para aumentar suas capacidades.",
+        "imagem": "images/personagens/Jack_Krauser.png"
+    },
+    {
+        "id": 4,
+        "nome": "Osmund Saddler",
+        "tipo": "Vilão",
+        "jogo": "Resident Evil 4",
+        "grupo": "Los Illuminados",
+        "descricao": "O líder dos Los Illuminados e principal responsável pelo plano envolvendo Ashley Graham e as Plagas. Saddler busca utilizar o parasita para ampliar a influência da organização.",
+        "imagem": "images/personagens/Osmund_Saddler.png"
+    },
+    {
+"id": 5,
+"nome": "Alexia Ashford",
+"tipo": "Vilão",
+"jogo": "Resident Evil Code: Veronica",
+"grupo": "Família Ashford",
+"descricao": "Uma das principais antagonistas de Resident Evil Code: Veronica. Alexia é uma pesquisadora brilhante da família Ashford e está diretamente ligada ao desenvolvimento do T-Veronica Virus.",
+"imagem": "images/personagens/Alexia_Ashford.png"
+},
+{
+"id": 6,
+"nome": "Jack Baker",
+"tipo": "Vilão",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Família Baker",
+"descricao": "Patriarca da família Baker e um dos principais antagonistas de Resident Evil 7. Após ser afetado pelo agente biológico presente na propriedade, Jack passa a apresentar comportamento agressivo e capacidades anormais.",
+"imagem": "images/personagens/Jack_Baker.png"
+},
+{
+"id": 7,
+"nome": "Ramon Salazar",
+"tipo": "Vilão",
+"jogo": "Resident Evil 4",
+"grupo": "Los Illuminados",
+"descricao": "O jovem castelão da região onde Leon realiza sua missão. Salazar se torna um dos principais aliados de Saddler e é influenciado pelas Plagas.",
+"imagem": "images/personagens/Ramon_Salazar.png"
+},
+{
+"id": 8,
+"nome": "Eveline",
+"tipo": "Vilão",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "The Connections",
+"descricao": "Uma arma biológica criada pela organização The Connections. Eveline possui a capacidade de afetar a mente das pessoas e está diretamente ligada aos acontecimentos envolvendo a família Baker.",
+"imagem": "images/personagens/Eveline.png"
+},
+{
+"id": 9,
+"nome": "Lady Dimitrescu",
+"tipo": "Vilão",
+"jogo": "Resident Evil Village",
+"grupo": "Família Dimitrescu",
+"descricao": "Uma das principais antagonistas de Resident Evil Village. Alcina Dimitrescu é uma das quatro figuras que servem à Mother Miranda e governa o Castelo Dimitrescu.",
+"imagem": "images/personagens/Lady_Dimitrescu.png"
+},
+{
+"id": 10,
+"nome": "Mother Miranda",
+"tipo": "Vilão",
+"jogo": "Resident Evil Village",
+"grupo": "Culto de Miranda",
+"descricao": "A principal antagonista de Resident Evil Village. Mother Miranda lidera o culto da região e realiza pesquisas relacionadas ao Megamiceto e ao agente biológico conhecido como Mutamiceto.",
+"imagem": "images/personagens/Mother_Miranda.png"
+},
+{
+"id": 11,
+"nome": "Heisenberg",
+"tipo": "Vilão",
+"jogo": "Resident Evil Village",
+"grupo": "Família de Miranda",
+"descricao": "Um dos quatro lordes que servem a Mother Miranda. Heisenberg possui habilidades relacionadas à manipulação de metais e controla uma fábrica na região.",
+"imagem": "images/personagens/Heisenberg.png"
+},
+{
+"id": 12,
+"nome": "Derek C. Simmons",
+"tipo": "Vilão",
+"jogo": "Resident Evil 6",
+"grupo": "Neo-Umbrella",
+"descricao": "Um influente conselheiro e membro de uma organização secreta que está envolvido nos acontecimentos de Resident Evil 6 e no desenvolvimento de planos relacionados a armas biológicas.",
+"imagem": "images/personagens/Derek_Simmons.png"
+},
+{
+"id": 13,
+"nome": "Lucas Baker",
+"tipo": "Vilão",
+"jogo": "Resident Evil 7: Biohazard",
+"grupo": "Família Baker",
+"descricao": "Um dos membros da família Baker e um dos antagonistas de Resident Evil 7. Lucas é conhecido por sua inteligência, comportamento cruel e envolvimento com experimentos relacionados ao agente biológico que afetou a família.",
+"imagem": "images/personagens/Lucas_Baker.png"
+},
+{
+"id": 14,
+"nome": "Donna Beneviento",
+"tipo": "Vilão",
+"jogo": "Resident Evil Village",
+"grupo": "Família de Miranda",
+"descricao": "Uma das quatro figuras que servem a Mother Miranda em Resident Evil Village. Donna vive na Casa Beneviento e utiliza uma poderosa substância alucinógena em seus experimentos.",
+"imagem": "images/personagens/Donna_Beneviento.png"
+},
+{
+"id": 15,
+"nome": "Salvatore Moreau",
+"tipo": "Vilão",
+"jogo": "Resident Evil Village",
+"grupo": "Família de Miranda",
+"descricao": "Um dos quatro lordes que servem a Mother Miranda. Moreau sofreu uma transformação causada pelos experimentos de Miranda e controla a região do reservatório.",
+"imagem": "images/personagens/Salvatore_Moreau.png"
+}
+
+
+
 ]

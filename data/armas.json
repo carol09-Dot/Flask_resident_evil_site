@@ -1,20 +1,382 @@
 [
-    {
-        "id": 1,
-        "nome": "Samurai Edge",
-        "tipo": "Pistola",
-        "jogo": "Resident Evil",
-        "grupo": "S.T.A.R.S.",
-        "imagem": "images/armas/Samurai_Edge.png",
-        "descricao": "Uma pistola personalizada utilizada por membros da S.T.A.R.S."
-    },
-    {
-        "id": 2,
-        "nome": "Rocket Launcher",
-        "tipo": "Lançador de foguetes",
-        "jogo": "Resident Evil 2",
-        "grupo": "Diversos",
-        "imagem": "images/armas/Rocket_Launcher.png",
-        "descricao": "Uma poderosa arma capaz de causar enorme dano aos inimigos."
-    }
+{
+"id": 1,
+"nome": "Samurai Edge",
+"tipo": "Pistola",
+"jogo": "Resident Evil",
+"grupo": "S.T.A.R.S.",
+"imagem": "images/armas/Samurai_Edge.png",
+"descricao": "Uma pistola personalizada utilizada por membros da S.T.A.R.S."
+},
+
+{
+    "id": 2,
+    "nome": "Rocket Launcher",
+    "tipo": "Lançador de foguetes",
+    "jogo": "Resident Evil 2",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Rocket_Launcher.png",
+    "descricao": "Uma poderosa arma capaz de causar enorme dano aos inimigos."
+},
+
+{
+    "id": 3,
+    "nome": "Matilda",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 2",
+    "grupo": "R.P.D.",
+    "imagem": "images/armas/Matilda.png",
+    "descricao": "Uma pistola utilizada por Leon S. Kennedy durante os acontecimentos de Raccoon City."
+},
+
+{
+    "id": 4,
+    "nome": "Lightning Hawk",
+    "tipo": "Pistola Magnum",
+    "jogo": "Resident Evil 2",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Lightning_Hawk.png",
+    "descricao": "Uma arma de grande potência encontrada durante o incidente de Raccoon City."
+},
+
+{
+    "id": 5,
+    "nome": "W870",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil 2",
+    "grupo": "R.P.D.",
+    "imagem": "images/armas/W870.png",
+    "descricao": "Uma espingarda encontrada durante o incidente de Raccoon City."
+},
+
+{
+    "id": 6,
+    "nome": "M1897",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil 3",
+    "grupo": "Diversos",
+    "imagem": "images/armas/M1897.png",
+    "descricao": "Uma espingarda encontrada por Jill Valentine durante o surto de Raccoon City."
+},
+
+{
+    "id": 7,
+    "nome": "Eagle 6.0",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 3",
+    "grupo": "S.T.A.R.S.",
+    "imagem": "images/armas/Eagle_6_0.png",
+    "descricao": "Uma pistola de alta precisão associada aos equipamentos utilizados durante o incidente de Raccoon City."
+},
+
+{
+    "id": 8,
+    "nome": "Western Custom M37",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil 3",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Western_Custom_M37.png",
+    "descricao": "Uma versão personalizada de uma espingarda encontrada durante os acontecimentos de Raccoon City."
+},
+
+{
+    "id": 9,
+    "nome": "Silver Ghost",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 4",
+    "grupo": "Leon S. Kennedy",
+    "imagem": "images/armas/Silver_Ghost.png",
+    "descricao": "Uma pistola utilizada por Leon S. Kennedy durante sua missão na Espanha."
+},
+
+{
+    "id": 10,
+    "nome": "Red9",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 4",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Red9.png",
+    "descricao": "Uma pistola encontrada por Leon durante os acontecimentos envolvendo os Los Illuminados."
+},
+
+{
+    "id": 11,
+    "nome": "Blacktail",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 4",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Blacktail.png",
+    "descricao": "Uma pistola compacta disponível durante a missão de Leon na Espanha."
+},
+
+{
+    "id": 12,
+    "nome": "Broken Butterfly",
+    "tipo": "Pistola Magnum",
+    "jogo": "Resident Evil 4",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Broken_Butterfly.png",
+    "descricao": "Uma poderosa arma encontrada durante os acontecimentos de Resident Evil 4."
+},
+
+{
+    "id": 13,
+    "nome": "Chicago Typewriter",
+    "tipo": "Arma automática",
+    "jogo": "Resident Evil 4",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Chicago_Typewriter.png",
+    "descricao": "Uma arma especial conhecida por sua aparência característica e por seu papel como equipamento desbloqueável."
+},
+
+{
+    "id": 14,
+    "nome": "Handcannon",
+    "tipo": "Pistola Magnum",
+    "jogo": "Resident Evil 4",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Handcannon.png",
+    "descricao": "Uma arma especial associada aos desafios e conteúdos extras de Resident Evil 4."
+},
+
+{
+    "id": 15,
+    "nome": "CQBR Assault Rifle",
+    "tipo": "Rifle de assalto",
+    "jogo": "Resident Evil 2",
+    "grupo": "Diversos",
+    "imagem": "images/armas/CQBR_Assault_Rifle.png",
+    "descricao": "Um rifle encontrado durante o incidente de Raccoon City."
+},
+
+{
+    "id": 16,
+    "nome": "LE 5",
+    "tipo": "Arma automática",
+    "jogo": "Resident Evil 2",
+    "grupo": "R.P.D.",
+    "imagem": "images/armas/LE_5.png",
+    "descricao": "Uma arma automática encontrada durante os acontecimentos de Resident Evil 2."
+},
+
+{
+    "id": 17,
+    "nome": "GM 79",
+    "tipo": "Lançador de granadas",
+    "jogo": "Resident Evil 2",
+    "grupo": "R.P.D.",
+    "imagem": "images/armas/GM_79.png",
+    "descricao": "Um lançador de granadas utilizado durante o incidente de Raccoon City."
+},
+
+{
+    "id": 18,
+    "nome": "Survival Knife",
+    "tipo": "Faca",
+    "jogo": "Resident Evil",
+    "grupo": "S.T.A.R.S.",
+    "imagem": "images/armas/Survival_Knife.png",
+    "descricao": "Equipamento de sobrevivência utilizado por diversos personagens da franquia."
+},
+
+{
+    "id": 19,
+    "nome": "Rocket Launcher Infinite",
+    "tipo": "Lançador de foguetes",
+    "jogo": "Resident Evil 3",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Rocket_Launcher_Infinite.png",
+    "descricao": "Uma versão especial do lançador de foguetes presente em conteúdos extras da franquia."
+},
+
+{
+    "id": 20,
+    "nome": "MUP",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/MUP.png",
+    "descricao": "Uma pistola encontrada durante os acontecimentos envolvendo a família Baker."
+},
+
+{
+    "id": 21,
+    "nome": "Albert-01R",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Albert_01R.png",
+    "descricao": "Uma arma especial associada ao conteúdo extra de Resident Evil 7."
+},
+
+{
+    "id": 22,
+    "nome": "M37",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/M37.png",
+    "descricao": "Uma espingarda encontrada durante a investigação de Ethan Winters na propriedade Baker."
+},
+
+{
+    "id": 23,
+    "nome": "Broken Shotgun",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Broken_Shotgun.png",
+    "descricao": "Uma espingarda danificada encontrada na propriedade Baker."
+},
+
+{
+    "id": 24,
+    "nome": "M1911",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/M1911.png",
+    "descricao": "Uma pistola encontrada durante os acontecimentos de Resident Evil 7."
+},
+
+{
+    "id": 25,
+    "nome": "P19 Machine Gun",
+    "tipo": "Arma automática",
+    "jogo": "Resident Evil 7",
+    "grupo": "Diversos",
+    "imagem": "images/armas/P19_Machine_Gun.png",
+    "descricao": "Uma arma automática presente em conteúdos relacionados à história de Resident Evil 7."
+},
+
+{
+    "id": 26,
+    "nome": "Samurai Edge - Chris",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 5",
+    "grupo": "Chris Redfield",
+    "imagem": "images/armas/Samurai_Edge_Chris.png",
+    "descricao": "Uma variante da Samurai Edge associada a Chris Redfield."
+},
+
+{
+    "id": 27,
+    "nome": "Hydra",
+    "tipo": "Arma especial",
+    "jogo": "Resident Evil 5",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Hydra.png",
+    "descricao": "Uma arma especial presente nos conteúdos de Resident Evil 5."
+},
+
+{
+    "id": 28,
+    "nome": "L.Hawk",
+    "tipo": "Pistola Magnum",
+    "jogo": "Resident Evil 5",
+    "grupo": "Diversos",
+    "imagem": "images/armas/L_Hawk.png",
+    "descricao": "Uma arma de grande potência presente durante os acontecimentos de Resident Evil 5."
+},
+
+{
+    "id": 29,
+    "nome": "Dragoon",
+    "tipo": "Arma automática",
+    "jogo": "Resident Evil 8",
+    "grupo": "Chris Redfield",
+    "imagem": "images/armas/Dragoon.png",
+    "descricao": "Uma arma utilizada por Chris Redfield durante os acontecimentos de Resident Evil Village."
+},
+
+{
+    "id": 30,
+    "nome": "USM-AI",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil Village",
+    "grupo": "Diversos",
+    "imagem": "images/armas/USM_AI.png",
+    "descricao": "Uma pistola presente durante os acontecimentos de Resident Evil Village."
+},
+
+{
+    "id": 31,
+    "nome": "Lemi",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil Village",
+    "grupo": "Ethan Winters",
+    "imagem": "images/armas/Lemi.png",
+    "descricao": "Uma pistola utilizada por Ethan Winters durante sua jornada pela vila."
+},
+
+{
+    "id": 32,
+    "nome": "M1911",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil Village",
+    "grupo": "Diversos",
+    "imagem": "images/armas/M1911_Village.png",
+    "descricao": "Uma pistola encontrada durante os acontecimentos de Resident Evil Village."
+},
+
+{
+    "id": 33,
+    "nome": "F2 Rifle",
+    "tipo": "Rifle",
+    "jogo": "Resident Evil Village",
+    "grupo": "Ethan Winters",
+    "imagem": "images/armas/F2_Rifle.png",
+    "descricao": "Um rifle encontrado por Ethan durante sua exploração da vila."
+},
+
+{
+    "id": 34,
+    "nome": "W870 TAC",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil Village",
+    "grupo": "Ethan Winters",
+    "imagem": "images/armas/W870_TAC.png",
+    "descricao": "Uma espingarda encontrada durante a jornada de Ethan Winters."
+},
+
+{
+    "id": 35,
+    "nome": "SYG-12",
+    "tipo": "Espingarda",
+    "jogo": "Resident Evil Village",
+    "grupo": "Diversos",
+    "imagem": "images/armas/SYG_12.png",
+    "descricao": "Uma arma presente entre os equipamentos disponíveis durante Resident Evil Village."
+},
+
+{
+    "id": 36,
+    "nome": "STAKЕ",
+    "tipo": "Arma especial",
+    "jogo": "Resident Evil Village",
+    "grupo": "Ethan Winters",
+    "imagem": "images/armas/STAKE.png",
+    "descricao": "Uma arma especial desenvolvida para enfrentar as ameaças encontradas durante os acontecimentos da vila."
+},
+
+{
+    "id": 37,
+    "nome": "USM-AI",
+    "tipo": "Pistola",
+    "jogo": "Resident Evil 6",
+    "grupo": "Diversos",
+    "imagem": "images/armas/USM_AI.png",
+    "descricao": "Uma pistola presente entre os equipamentos utilizados durante os acontecimentos de Resident Evil 6."
+},
+
+{
+    "id": 38,
+    "nome": "Elephant Killer",
+    "tipo": "Pistola Magnum",
+    "jogo": "Resident Evil 5",
+    "grupo": "Diversos",
+    "imagem": "images/armas/Elephant_Killer.png",
+    "descricao": "Uma arma especial presente entre os equipamentos de Resident Evil 5."
+}
+
 ]
